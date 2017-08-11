@@ -111,6 +111,8 @@
 			</div>
 		</div>
 	</div>
+	
+	说一句话吧
 	<div class="menu-device"></div>
 	<script type="text/javascript"
 		src="js/mainPage/jqueryui.js"></script>
