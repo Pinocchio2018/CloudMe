@@ -1,0 +1,27 @@
+#container_category{
+position:absolute;
+top:0%;
+bottom: 0%;
+left: 0%;
+right: 0%;
+}
+
+#container_button
+{
+position:absolute;
+top:0%;
+bottom: 92%;
+left: 0%;
+right: 0%;
+background-color: #ffffff;
+}
+
+#category
+{
+position:absolute;
+top:8%;
+bottom: 0%;
+left: 0%;
+right: 0%;
+background-color: #ffffff;
+}
