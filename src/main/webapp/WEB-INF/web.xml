@@ -37,6 +37,10 @@
 		<servlet-name>default</servlet-name>
 		<url-pattern>*.ttf</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>*.gif</url-pattern>
+	</servlet-mapping>
 
 	<!-- Spring和mybatis的配置文件 -->
 	<context-param>

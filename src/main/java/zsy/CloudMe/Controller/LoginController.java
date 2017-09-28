@@ -16,11 +16,11 @@ public class LoginController {
 	AccountService accountService;
 
 	@RequestMapping(value = "/loginCheck",method=RequestMethod.POST)
-	public ModelAndView loginCheck(String username, String password) {
+	public String loginCheck(String username, String password) {
 		int result = accountService.checkAccount(username, password);
 //		return (result==1?"mainPage":null);
 		if(result==1)
-			return new ModelAndView("mainPage/mainPage");
+			return "/mainPage/mainPage";
 		else 
 			return null;
 	}

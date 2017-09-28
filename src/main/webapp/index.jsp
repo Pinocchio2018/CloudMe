@@ -9,7 +9,7 @@
 	type="text/css">
 <link href="css/loginPage/drag.css" rel="stylesheet" type="text/css" />
 
-<script src="js/jquery-3.2.1.js"></script>
+<script src="js/common/jquery-3.2.1.js"></script>
 
 </head>
 <body>

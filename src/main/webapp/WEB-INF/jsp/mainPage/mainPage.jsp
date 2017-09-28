@@ -10,9 +10,9 @@
 </head>
 <body id="body">
 	<link rel="stylesheet" type="text/css" href="css/mainPage/mainPage.css">
-	<script type="text/javascript" src="js/mainPage/jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="js/mainPage/jquery.accordion.js"></script>
-	<script type="text/javascript" src="js/mainPage/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/common/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/common/jquery.accordion.js"></script>
+	<script type="text/javascript" src="js/common/jquery.easing.js"></script>
 
 
 	<div id="container">
@@ -59,6 +59,6 @@
 			jQuery('#list1a').accordion();
 		});
 	</script>
-	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script src="js/common/jquery-ui.js"></script>
 </body>
 </html>
