@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<title>类别管理设计图</title>
+	<title>类别管理</title>
 </head>
 <body>
 <div id="container_category">
@@ -10,11 +12,11 @@
 	</div>
 	<div id="category">
 		<table>
-			<caption>类别管理</caption>
+			<caption>类别管理</caption>
 			<tr>
-				<th>一级分类</th>
-				<th>二级分类</th>
-				<th>三级分类</th>
+				<th>一级目录</th>
+				<th>二级目录</th>
+				<th>三级目录</th>
 			</tr>
 			<tr>
 				
@@ -24,6 +26,6 @@
 	</div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="category_manage.css">
+<link rel="stylesheet" type="text/css" href="../css/iframe/category_manage/category_manage.css">
 </body>
 </html>

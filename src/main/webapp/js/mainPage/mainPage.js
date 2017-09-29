@@ -3,13 +3,13 @@ $(document).ready(
 	function(){
 		$("#record").click(
 				function(){
-					$("#container_iframe").attr("src","./iframe/record/record.html");
+					$("#container_iframe").attr("src","./iframe/record");
 							}
 				);
 
 		$("#category").click(
 				function(){
-					$("#container_iframe").attr("src","./iframe/category_manage/category_manage.html");
+					$("#container_iframe").attr("src","./iframe/category_manage");
 							}
 
 	);
