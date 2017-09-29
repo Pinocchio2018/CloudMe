@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,23 +18,24 @@
 
 
 	<div id="container">
-<div id="bar_main">CloudMe</div>
-<div id="content_container">
+		<div id="bar_main">CloudMe</div>
+		<div id="username">${username}</div>
+		<div id="content_container">
 
-<iframe id="container_iframe" src="./iframe/welcome"></iframe>
+			<iframe id="container_iframe" src="./iframe/welcome"></iframe>
 
 
-	<!--右边区域-->
-	<div id="right_container">
-		<div id="menu_container">
-			<div id="greet">Good Morning</div>
-			<div id="record">记账</div>
-			<div id="category">类别管理</div>
-			<div id="analysis">数据分析</div>
+			<!--右边区域-->
+			<div id="right_container">
+				<div id="menu_container">
+					<div id="greet">Good Morning</div>
+					<div id="record">记账</div>
+					<div id="category">类别管理</div>
+					<div id="analysis">数据分析</div>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-</div>
 
 	<script type="text/javascript">
 		jQuery().ready(function() {
