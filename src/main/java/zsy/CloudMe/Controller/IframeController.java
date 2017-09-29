@@ -15,4 +15,11 @@ public class IframeController {
 	public String getRecordIframe(String username, String password) {
 			return "iframe/record/record";
 	}
+	
+	@RequestMapping(value = "/iframe/welcome",method=RequestMethod.GET)
+	public String getWelcomeIframe()
+	{
+		return "iframe/welcomePage/mainPageWelcome";
+	}
+	
 }

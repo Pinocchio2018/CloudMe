@@ -20,7 +20,7 @@
 <div id="bar_main">CloudMe</div>
 <div id="content_container">
 
-<iframe id="container_iframe" src="./iframe/category_manage"></iframe>
+<iframe id="container_iframe" src="./iframe/welcome"></iframe>
 
 
 	<!--右边区域-->
