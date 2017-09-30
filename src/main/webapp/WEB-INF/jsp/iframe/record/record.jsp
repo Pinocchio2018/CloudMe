@@ -40,7 +40,7 @@
 
 		<!--中间区域-->
 		<div id="mid_container">
-			<div id="category_manage">类别管理区域</div>
+			<div id="category_manage">记账区域</div>
 		</div>
 		<script type="text/javascript" src="../js/common/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="../js/common/jquery.accordion.js"></script>
