@@ -1,7 +1,6 @@
 package zsy.CloudMe.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,13 +14,13 @@ public class LoginController {
 	@Autowired
 	AccountService accountService;
 
-	@RequestMapping(value = "/loginCheck",method=RequestMethod.POST)
-	public String loginCheck(String username, String password) {
+	@RequestMapping(value = "/loginCheck", method = RequestMethod.POST)
+	public ModelAndView loginCheck(String username, String password) {
 		int result = accountService.checkAccount(username, password);
-//		return (result==1?"mainPage":null);
-		if(result==1)
-			return "/mainPage/mainPage";
-		else 
+		if (result == 1) {
+			ModelAndView mav = new ModelAndView("/mainPage/mainPage","username", username);
+			return mav;
+		} else
 			return null;
 	}
 }
