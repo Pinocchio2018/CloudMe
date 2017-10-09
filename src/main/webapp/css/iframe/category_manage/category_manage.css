@@ -25,3 +25,34 @@ left: 0%;
 right: 0%;
 background-color: #ffffff;
 }
+
+#firstCategory
+{
+position:absolute;
+top:0%;
+bottom: 0%;
+left: 0%;
+right: 80%;
+background-color: #efcb99;	
+	
+}
+#secondCategory
+{
+position:absolute;
+top:0%;
+bottom: 0%;
+left: 24%;
+right: 56%;
+background-color: #ffcece;	
+}
+
+#thirdCategory
+{
+position:absolute;
+top:0%;
+bottom: 0%;
+left: 60%;
+right: 20%;
+background-color: #ffcece;	
+	
+}

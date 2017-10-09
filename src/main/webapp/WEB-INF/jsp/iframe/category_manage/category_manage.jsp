@@ -6,23 +6,15 @@
 <title>类别管理</title>
 </head>
 <body>
+
 	<div id="container_category">
 		<div id="container_button">
 			<button id="refresh_category">刷新</button>
 		</div>
 		<div id="category">
-			<table>
-			<caption>类别管理</caption>
-				<tr>
-					<th>一级目录</th>
-					<th>二级目录</th>
-					<th>三级目录</th>
-				</tr>
-				<tr>
-
-				</tr>
-
-			</table>
+			<div id="firstCategory">一级类</div>
+			<div id="secondCategory">二级类</div>
+			<div id="thirdCategory">三级类</div>
 		</div>
 	</div>
 

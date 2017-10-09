@@ -1,0 +1,13 @@
+﻿类别管理，做一个获得最新类别信息的函数getLatestCategory。
+function getLatestCategory()
+{
+    post;
+    
+    success后走一个更新页面内容的函数updateContent
+}
+
+
+function updateContent()
+{
+	更新页面内容
+}
